@@ -1,0 +1,15 @@
+.error-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.error-wrapper > .error-heading {
+    margin-bottom: 42px;
+}
+
+#image1 {
+    width: 50%;
+}
