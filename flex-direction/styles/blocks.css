@@ -1,0 +1,28 @@
+.container > .blocks {
+   display: flex;     
+   justify-content: center;
+   align-items: center;
+   width: 1000px;
+}
+
+.container > .blocks > .block {
+    background-color: cadetblue;
+    height: 200px;
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#block1 {
+    flex-basis: 400px;
+}
+
+#block2 {
+    flex-basis: 100px;
+}
+
+#block3 {
+    flex-basis: 200px;
+}
