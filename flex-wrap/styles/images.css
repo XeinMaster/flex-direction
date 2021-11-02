@@ -1,0 +1,12 @@
+.img-blocks img {
+    margin: 5px;
+    height: 120px;
+    width: auto;
+}
+
+.container > .img-blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

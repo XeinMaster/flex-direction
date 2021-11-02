@@ -1,0 +1,14 @@
+.container > .item > .content {
+    display: flex;
+}
+
+.container > .item > .content > .metadata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.container > .item > .content > .metadata > .title {
+    margin: 0px;
+}

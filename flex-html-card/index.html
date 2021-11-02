@@ -6,14 +6,68 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="styles/common.css">
+        <link rel="stylesheet" href="styles/buttons.css">
+        <link rel="stylesheet" href="styles/cards.css">
+        <link rel="stylesheet" href="styles/containers.css">
+        
 
-        <title>Document</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l"
+            crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c"
+            crossorigin="anonymous"></script>
+
+        <title>Flexbox Html Card</title>
 
     </head>
 
     <body>
         
-        
+        <div class='container'>
+            <div class='item featured'>
+                <div class='content'>
+                    <img src='https://d32xj74kbqkoqn.cloudfront.net/uploads/campsite/campsite_image/129/dissecting-rails-icon.jpg' width='200px'
+                        height='120px'>
+                    <div class='metadata'>
+                        <h1 class='title'>Is this a title?</h1>
+                        <h3>I'm a smaller title, my friends call me subtitle</h3>
+                    </div>
+                </div>
+                <div class='btn-group'>
+                    <div class='button'>
+                        <a href="#">
+                            <i class="fas fa-plus-circle"></i>
+                        </a>
+                    </div>
+                    <div class='button'>
+                        <a href="#">
+                            <i class="fas fa-times-circle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class='item associated'>
+                <div class='content'>
+                    <img src='https://d32xj74kbqkoqn.cloudfront.net/uploads/guide/video_image/43/foundations-video-thumb.jpg' width='200px' height='120px'>
+                    <div class='metadata'>
+                        <h1 class='title'>I'm a title too, for an amazing post</h1>
+                    </div>
+                </div>
+                <div class='btn-group'>
+                    <div class='button'>
+                        <a href="#">
+                            <i class="fas fa-plus-circle"></i>
+                        </a>
+                    </div>
+                    <div class='button'>
+                        <a href="#">
+                            <i class="fas fa-times-circle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
         
     </body>
 </html>
