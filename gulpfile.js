@@ -5,11 +5,11 @@ var reload = browserSync.reload;
 gulp.task('serve', function() {
   browserSync.init({
     server: {
-      baseDir: "./flex-direction"
+      baseDir: "./align-self"
     }
   });
 
-  gulp.watch("flex-direction/*.html").on("change", reload);
-  gulp.watch("flex-direction/styles/*.css").on("change", reload);
+  gulp.watch("align-self/*.html").on("change", reload);
+  gulp.watch("align-self/styles/*.css").on("change", reload);
 
 });
